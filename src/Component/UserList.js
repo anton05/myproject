@@ -40,7 +40,7 @@ const UserList = () => {
                                         <td>{el.userName}</td>
                                         <td>
                                             <Link to='/users/edit'><button className='btn'>EDIT</button></Link>
-                                            <button className='btn'onClick={deleteUser(el.id)}>DELETE</button>
+                                            <button className='btn'onClick={() => deleteUser(el.id)}>DELETE</button>
                                         </td>
                                     </tr>
                                 </>

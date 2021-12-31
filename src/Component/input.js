@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 const Input = () => {
     const userService = new UserService();
     const [formData, setFormData] = useState({ name: '', userName: '' });
-
+    
     const onInputChange = (inputName) => (e) => {
-        setFormData({ ...formData, [inputName]: e.target.value })
+                setFormData({ ...formData, [inputName]: e.target.value})
     };
     const addUser = () => {
         userService.addUser(formData);
