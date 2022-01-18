@@ -21,9 +21,9 @@ const Input = () => {
 
             <div className='input'>
                 <p>Name</p>
-                <input className='inp' type='text' onChange={onInputChange('name')} /><br />
+                <input className='inp' type='text' placeholder="Add your name" onChange={onInputChange('name')} /><br />
                 <p>Lastname</p>
-                <input className='inp' type='text' onChange={onInputChange('userName')} />
+                <input className='inp' type='text' placeholder="Add your Lastname" onChange={onInputChange('userName')} />
             </div>
             <button className='btn1' onClick={addUser}>ADD USER</button><br />
             <Link to="/users"><button className='btn1'>SHOW USER</button></Link>

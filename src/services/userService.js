@@ -17,9 +17,13 @@ class UserService {
 
     deleteUser(userId) {
         const users = this.getUsers();
-        console.log(JSON.stringify(users));
-        console.log(userId);
         localStorage.setItem('users', JSON.stringify(users.filter(x => x.id !== userId)))
+    };
+
+    updateUser(userId) {
+        const users = this.getUsers();
+        const userToUpdate = users.find(u => u.id === userId);
+        localStorage.setItem('users', JSON.stringify(users));
     };
 };
 
