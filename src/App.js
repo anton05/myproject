@@ -11,7 +11,6 @@ function App() {
       <Routes>
         <Route path='/' element={<Input />} />
         <Route path = '/users' element={<UserList />}  />
-        <Route path = '/users/edit' element={<UserEdit />}  />
         <Route path = '/users/edit/:id' element={<UserEdit />}  />
       </Routes>
 
