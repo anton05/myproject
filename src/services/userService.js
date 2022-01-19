@@ -23,7 +23,7 @@ class UserService {
     updateUser(userId) {
         const users = this.getUsers();
         const userToUpdate = users.find(u => u.id === userId);
-        localStorage.setItem('users', JSON.stringify(users));
+        localStorage.setItem('users', JSON.stringify([...users, ...userId]));
     };
 };
 

@@ -9,9 +9,9 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path='/' element={<Input />} />
-        <Route path = '/users' element={<UserList />}  />
-        <Route path = '/users/edit/:id' element={<UserEdit />}  />
+        <Route exact path='/' element={<Input />} />
+        <Route exact path = '/users' element={<UserList />}  />
+        <Route exact path = '/users/edit/:id' element={<UserEdit />}  />
       </Routes>
 
 
