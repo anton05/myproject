@@ -20,7 +20,7 @@ const UserList = () => {
       <h1>User list:</h1>
       <div className="contain">
         <p>
-          <Link to="/users/add">ADD NEW USER</Link>
+          <Link to="/users/add" className="link">ADD NEW USER</Link>
         </p>
         <table>
           <thead>

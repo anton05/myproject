@@ -34,3 +34,13 @@ td{
     font-weight: bold;
     cursor: pointer;
 }
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.link:hover{
+    color: blue;
+}
