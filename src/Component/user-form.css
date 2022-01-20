@@ -1,15 +1,15 @@
-.input{
+.form-container{
     margin-left: 70px;
 }
 
-.inp{
+.form-input{
     border-radius: 5px;
     border: 0.3px solid rgb(148, 148, 148);
     height: 35px;
     width: 250px;
 }
 
-.btn1{
+.btn{
     margin-left: 70px;
     margin-top: 20px;
     border-radius: 7px;
@@ -21,9 +21,13 @@
     border: none;
     font-weight: bold;
     cursor: pointer;
+}
 
+.btn[disabled]{
+    background-color: gray;
 }
 
 p{
     font-weight: bold;
+    text-decoration: none
 }
