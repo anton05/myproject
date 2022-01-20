@@ -21,7 +21,10 @@
     border: none;
     font-weight: bold;
     cursor: pointer;
+}
 
+.btn[disabled]{
+    background-color: gray;
 }
 
 p{

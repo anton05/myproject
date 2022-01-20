@@ -44,3 +44,9 @@ td{
 .link:hover{
     color: blue;
 }
+
+.validation-error{
+    color:crimson;
+    font-weight: bolder;
+    display: block;
+}
